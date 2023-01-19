@@ -1,0 +1,19 @@
+1. In ra các số từ 1 đến 100.
+2. In ra các số từ 100 đến 1.
+3. In ra các số từ 1 đến 100 mà chia hết cho 3.
+4. In ra các số từ 99 đến 1 mà chia hết cho 7.
+5. Bạn hãy viết chương trình tính tổng của 50 số 1, 2, 3, ..., 50.
+6. Bạn hãy viết chương trình tính tổng của 50 số 50, 49, 48, ..., 1.
+7. Bạn hãy viết chương trình tình tổng của 50 số chẵn bắt đầu từ 2.
+8. Bạn hãy viết chương trình tính tổng của 20 số 5, 10, 15, ..., 100.
+9. Bạn hãy viết chương trình tính n! (n!=1*2*3*...*n)
+10. Bạn hãy nhập vào một số N bất kỳ và kiểm tra xem N có phải số nguyên tố hay không?
+11. Nhập vào một số tự nhiên n, in ra màn hình tam giác cân rỗng có chiều cao là n được tạo thành từ những dấu *, có sử dụng vòng lặp.
+    Ví dụ: N=5
+    Kết quả:
+    Nhap chieu cao cua tam giac: 5
+           *
+         *   *
+        *     *
+      *         *
+    * * * * * * * *
