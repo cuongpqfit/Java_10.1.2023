@@ -53,8 +53,8 @@ import java.util.Scanner;
             System.out.println();
 
             //        Bài 5,6,7,8 : Tổng 50 số đầu
-            System.out.println("Bài 5: Tổng 50 số đầu từ 50 đến 1: " + sum50Increase);
-            System.out.println("Bài 6: Tổng 50 số đầu từ 1 đến 50: " + sum50Decrease);
+            System.out.println("Bài 5: Tổng 50 số đầu từ 1 đến 50: " + sum50Increase);
+            System.out.println("Bài 6: Tổng 50 số đầu từ 50 đến 1: " + sum50Decrease);
             System.out.println("Bài 7: Tổng 50 số chẵn : " + sumChan);
             System.out.println("Bài 8: Tổng 20 số chia hết cho 5 :" + sum5);
 
