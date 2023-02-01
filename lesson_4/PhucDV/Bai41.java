@@ -2,6 +2,7 @@ package PhucDV;
 
 import java.util.Scanner;
 
+
 public class Bai41 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
