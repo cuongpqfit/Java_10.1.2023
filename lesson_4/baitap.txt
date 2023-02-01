@@ -1,0 +1,6 @@
+===BÀI TẬP PUSH LÊN GITHUB
+Bài 1. Đếm có bao nhiêu khoảng trắng trong chuỗi.
+Bài 2. Nhập vào một chuỗi, hãy loại bỏ những khoảng trắng thừa trong chuỗi.
+Bài 3. Nhập vào hai chuỗi s1 và s2, nối chuỗi s2 vào s1. Xuất chuỗi s1 ra mànhình
+Bài 4. Đổi tất cả các kí tự có trong chuỗi thành chữ thường.
+Bài 5. Đổi tất cả các kí tự trong chuỗi sang chữ in hoa
