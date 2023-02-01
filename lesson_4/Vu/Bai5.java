@@ -10,5 +10,7 @@ public class Bai5 {
     s = s.toUpperCase();
     System.out.print(s);
 
+    
+
     }
 }
