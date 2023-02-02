@@ -24,6 +24,7 @@ Gợi ý: tạo 3 object như sau:
         objPhanso3.tru(objPhanso1, objPhanso2)
         ....
 
+GIẢI THUẬT SẮP XẾP CHÈN
 Bài 2: Nhà máy gạch quái đản
 Một nhà máy có N viên gạch, mỗi viên gạch có 1 trọng lượng là số nguyên. Hãy giúp nhà máy sắp xếp các viên gạch theo
 trọng lượng giảm dần
