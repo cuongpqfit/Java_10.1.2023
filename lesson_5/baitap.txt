@@ -1,0 +1,55 @@
+===BÀI TẬP PUSH LÊN GITHUB
+
+Java OOP
+Bài 1. Phân số
+Xây dựng lớp Phanso gồm:
+
+Thuộc Tính: tuso, mauso.
+Phương thức:
+    Hàm Khởi Tạo: Không Tham Số, có tham số(Tử số, mẫu số)
+    Nhập: Nhập tử số, nhập mẫu số.
+    Xuất: gồm 4 phương thức dưới đây
+        cong(objPhanso1, objPhanso2); Xuất ra màn hình kết quả cộng objPhanso1 + objPhanso2
+        tru(objPhanso1, objPhanso2);  Xuất ra màn hình kết quả trừ objPhanso1 - objPhanso2
+        nhan(objPhanso1, objPhanso2); Xuất ra màn hình kết quả nhân objPhanso1 * objPhanso2
+        chia(objPhanso1, objPhanso2); Xuất ra màn hình kết quả chia objPhanso1 / objPhanso2
+
+Tính Tổng, Hiệu, Tích, Thương 2 phân số objPhanso1 và objPhanso2 rồi in kết quả ra màn hình
+Gợi ý: tạo 3 object như sau:
+    objPhanso1 = new PhanSo();
+    objPhanso2 = new PhanSo();
+    objPhanso3 = new PhanSo();
+    Xuất ra màn hình:
+        objPhanso3.cong(objPhanso1, objPhanso2)
+        objPhanso3.tru(objPhanso1, objPhanso2)
+        ....
+
+GIẢI THUẬT SẮP XẾP CHÈN
+Bài 2: Nhà máy gạch quái đản
+Một nhà máy có N viên gạch, mỗi viên gạch có 1 trọng lượng là số nguyên. Hãy giúp nhà máy sắp xếp các viên gạch theo
+trọng lượng giảm dần
+Input: gồm 2 dòng
+    - Dòng thứ nhất là số nguyên n biểu thị số lượng các viên gạch
+    - Dòng thứ hai gồm n số nguyên a1, a2, a3, ... an, mỗi số cách nhau một khoảng trắng là trọng lượng các viên gạch.
+Output:
+    - Dãy trọng lượng các viên gạch theo thứ tự giảm dần.
+Ví dụ:
+    Input           Output
+    4               5 3 2 1
+    3 2 1 5
+
+Bài 3: Rạp hát kỳ dị
+Rạp hát bán các tấm vé cho các khán giả, mỗi tấm vé sẽ là 1 số nguyên dương. Hãy giúp rạp hát sắp xếp các tấm vé sao cho
+tấm vé số chẵn thì sẽ bán hết trước rồi mới đến các tấm vé số lẻ.
+Input: gồm 2 dòng
+    - Dòng thứ nhất là số nguyên n biểu thị số lượng các tấm vé
+    - Dòng thứ hai gồm n số nguyên a1, a2, a3, ... an, mỗi số cách nhau một khoảng trắng là số in trên các tấm vé.
+Output:
+    - Dãy các tấm vé đã được sắp xếp.
+
+Ví dụ:
+    Input           Output
+    4               2 4 3 5
+    3 2 4 5
+
+
