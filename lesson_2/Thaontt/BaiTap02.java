@@ -1,4 +1,4 @@
-package BaiTap;
+package Thaontt;
 
 public class BaiTap02 {
     public static void main(String[] args) {
