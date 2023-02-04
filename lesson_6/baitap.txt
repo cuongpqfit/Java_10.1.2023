@@ -1,0 +1,62 @@
+===BÀI TẬP PUSH LÊN GITHUB
+
+Java OOP
+Bài 1. Viết chương trình tính diện tích, chu vi hình chữ nhật.
+    - Hãy viết lớp HinhChuNhat gồm có:
+         Attributes : chiều dài, chiều rộng.
+         Phương thức thiết lập (set), và lấy (get) thông tin chiều dài, chiều rộng.
+         Phương thức tính diện tích, chu vi.
+         Phương thức toString gồm các thông tin dài, rộng, diện tích, chu vi.
+    - Xây dựng lớp chứa hàm main cho phần kiểm nghiệm. Dài rộng có thể nhập từ bàn phím.
+
+Bài 2. Viết chương trình OOP quản lý sinh viên đơn giản: Nhập, xuất thông tin, tính điểm TB.
+    - Viết lớp Sinh viên như sau:
+    Attributes (private):
+         Mã sinh viên là số nguyên.
+         Họ tên: chuỗi ký tự.
+         Điểm LT, điểm TH : float
+    Constructor:
+         Constructor mặc định (để khởi tạo đối tượng với các thông tin kiểu số là 0, kiểu chuỗi là
+        chuỗi rỗng).
+         Constructor thứ hai nhận đầy đủ thông tin để khởi tạo giá trị cho tất cả các biến instance.
+    Methods:
+         Các getter và setter cho mỗi thuộc tính.
+         Tính điểm trung bình.
+         Phương thức toString để diễn tả đối tượng ở dạng chuỗi.
+        - Xây dựng class chứa hàm main: tạo 3 đối tượng sinh viên sv1, sv2, sv3, trong đó:
+         sv1 chứa thông tin của chính mình (tạo bằng constructor đủ thông số, thông tin biết rồi khỏi nhập từ bàn phím).
+         sv2 là thông tin người bạn thân nhất của em (tạo bằng constructor đủ thông số, thông tin biết rồi khỏi nhập từ bàn phím).
+         sv3 tạo bằng constructor mặc định. Nhập các thông tin cho sv3 từ bàn phím rồi sau đó dùng các setter để gán vào cho các thuộc tính tương ứng.
+         In bảng danh sách sinh viên gồm 4 cột là MSSV, họ tên, điểm LT, điểm TH, điểm TB(= (LT + TH)/2)
+        (bảng có 3 dòng cho 3 sinh viên).
+        +--------+--------------+---------+---------+---------+
+        |  MSSV  |    họ tên    | điểm LT | điểm TH | điểm TB |
+        +--------+--------------+---------+---------+---------+
+        | 000001 | Nguyễn Văn A |      10 |       8 |       9 |
+        | 000002 | Nguyễn Văn B |       9 |       8 |     8.5 |
+        | 000003 | Nguyễn Văn C |       9 |       9 |       9 |
+        +--------+--------------+---------+---------+---------+
+    HD: phương thức xuất của đối tượng sinh viên in thông tin trên một dòng có định dạng. Sử dụng
+    System.out.printf(“chuỗi định dạng”, đối số 1, đối số 2, ….); Ví dụ:
+    “%-30s”: chuỗi, chiếm 30 ký tự, dấu trừ canh lề trái.
+    “%5.2f” : số thực, chiếm 5 ký tự, bao gồm 2 ký số lẻ.
+    Ký tự định dạng:
+     s : chuỗi
+     d: số nguyên (byte, short, int, long)
+     f: số thực (float, double)
+     b: boolean
+
+Bài 3. Số cặp bằng nhau Cho một mảng gồm n số nguyên dương a1, a2, a3, ... an. Hỏi có bao nhiêu cặp số bằng nhau?
+(Bao nhiêu cặp ai = aj với i ≠ j, (ai, aj) và (aj, ai) chỉ được tính là 1 cặp)
+Input:
+    - Dòng thứ nhất là chiều dài n của mảng (1<= n <= 105)
+    - Dòng thứ hai gồm n số nguyên a1, a2, a3, ... an (1<= ai <= 105), mỗi số cách nhau một khoảng trắng.
+Output:
+    - Là số nguyên xác định số lượng các cặp bằng nhau, lưu ý là số lượng này có thể rất lớn nên sử dụng kiểu long long.
+
+Input           Output
+5               1
+8 2 9 8 1
+-------------------
+7               4
+ 6 2 4 2 4 3 4
