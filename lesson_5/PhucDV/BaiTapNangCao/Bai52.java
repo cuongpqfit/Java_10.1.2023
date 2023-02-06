@@ -21,7 +21,7 @@ public class Bai52 {
             sort(diaChi);
             int min = diaChi[1] - diaChi[0];
             for (int i = 2; i < diaChi.length; i++) {
-                int tmp = diaChi[1] - diaChi[0];
+                int tmp = diaChi[i] - diaChi[i -1];
                 if (min < tmp) {
                     min = tmp;
                 }
