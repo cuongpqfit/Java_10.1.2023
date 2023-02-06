@@ -24,11 +24,11 @@ public class Bai51 {
         sort(chieuCaoNam);
         sort(chieuCaoNu);
         boolean check = false;
+        int ketQua = 0;
         for (int i = 0; i < chieuCaoNam.length; i++) {
             for (int k : chieuCaoNu) {
                 if (chieuCaoNam[i] > k){
-                int ketQua = chieuCaoNam.length - i;
-                System.out.println("số lượng các đôi khiêu vũ là : " + ketQua);
+                ketQua = chieuCaoNam.length - i;
                 check = true;
                 break;
                 }
@@ -36,6 +36,11 @@ public class Bai51 {
             if(check){
                 break;
             }
+        }
+        if(ketQua > chieuCaoNu.length){
+            System.out.println("Số cặp khiêu vũ : " + chieuCaoNu.length);
+        }else{
+            System.out.println("Số cặp khiêu vũ : " + ketQua);
         }
 
     }
