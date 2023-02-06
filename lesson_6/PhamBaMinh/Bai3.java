@@ -1,4 +1,4 @@
-package PhamBaMinh.Bai3;
+package PhamBaMinh;
 
 import java.util.Scanner;
 
