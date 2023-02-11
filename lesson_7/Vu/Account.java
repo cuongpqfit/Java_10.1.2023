@@ -89,7 +89,7 @@ public class Account{
     public static void main (String [] agrs){
         Account tk0 = new Account();
         Account tk1 = new Account(1234, "Nguyen Van A", 20000000);
-        Account tk2 = new Account(12345, "Nguyen Van B", 100);
+        Account tk2 = new Account(12345, "Nguyen Van B", 10000000);
 
         System.out.print(tk0);
         
@@ -97,10 +97,17 @@ public class Account{
         tk1.napTien();
         System.out.print(tk1);
 
+<<<<<<< HEAD
         tk2.rutTien();
         System.out.print(tk2);
         tk2.daoHan();
         System.out.print(tk2);
+=======
+         tk2.rutTien();
+         System.out.print(tk2);
+         tk2.daoHan();
+         System.out.print(tk2);
+>>>>>>> 34fe0a0652c7d4fc2ec74dbb340954f0eb25127a
 
         tk1.chuyenKhoan(tk2);
         System.out.println(tk1);

@@ -42,6 +42,8 @@ public class Sach {
         return ngayNhap;
     }
     public void setNgayNhap(Date ngayNhap) {
+        SimpleDateFormat df = new SimpleDateFormat("dd/MM/yyyy");
+        String str2 = df.format(ngayNhap);
         this.ngayNhap = ngayNhap;
     }
     public double getDonGia() {
