@@ -97,14 +97,14 @@ public class Account{
         tk1.napTien();
         System.out.print(tk1);
 
-        // tk2.rutTien();
-        // System.out.print(tk2);
-        // tk2.daoHan();
-        // System.out.print(tk2);
+         tk2.rutTien();
+         System.out.print(tk2);
+         tk2.daoHan();
+         System.out.print(tk2);
 
-        // tk1.chuyenKhoan(tk2);
-        // System.out.println(tk1);
-        // System.out.println(tk2);
+        tk1.chuyenKhoan(tk2);
+        System.out.println(tk1);
+        System.out.println(tk2);
     }
 }
     
