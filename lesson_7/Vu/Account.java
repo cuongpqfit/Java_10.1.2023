@@ -89,7 +89,7 @@ public class Account{
     public static void main (String [] agrs){
         Account tk0 = new Account();
         Account tk1 = new Account(1234, "Nguyen Van A", 20000000);
-        Account tk2 = new Account(12345, "Nguyen Van B", 100);
+        Account tk2 = new Account(12345, "Nguyen Van B", 10000000);
 
         System.out.print(tk0);
         
