@@ -1,0 +1,18 @@
+===BÀI TẬP PUSH LÊN GITHUB
+
+Java ADT
+Bài 1:Viết chương trình cho phép nhập vào n, sau đó nhập vào n phần tử số nguyên dùng ArrayList.
+Cuối cùng, chương trình sẽ xuất ra giá trị trung bình của mảng này.
+
+Bài 2: Viết chương trình cho phép nhập vào n, sau đó nhập vào n phần tử số nguyên dương dùng LinkedList.
+Cuối cùng, chương trình sẽ xuất ra phần tử có giá trị lớn nhất.
+
+Bài 3: Viết chương trình cho phép nhập vào n, sau đó nhập vào n phần tử số nguyên (có thể dương hoặc âm) dùng HashMap.
+Cuối cùng, chương trình sẽ xuất ra phần tử có giá trị nhỏ nhất.
+
+Bài tập 4: Viết chương trình cho phép nhập vào n, sau đó nhập vào n phần tử số nguyên dùng ArrayList.
+Sắp xếp các phần tử trong mảng theo thứ tự ngược lại
+
+Bài tập 5: Viết chương trình cho phép nhập vào n, sau đó nhập vào n phần tử số (0 <= ai <= 9), sau khi chạy thì chương
+trình sẽ ghi số đó ra dưới dạng chữ dùng HashSet.
+VD: 1 -> Một, 2 -> Hai, …
