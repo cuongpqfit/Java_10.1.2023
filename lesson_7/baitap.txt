@@ -181,3 +181,42 @@ Input           Output
 2
 5
 1
+
+* Ý tưởng
+ Gọi B[i] = A[1]+A[2]+…+A[i]. Với i = 1, 2, ..., N
+Cần tìm đoạn dài nhất dãy tổng đối xứng.
+- Ta có tổng các phần tử từ vị trí L đến R bằng: B[R]-B[L-1].
+- Xét đoạn [L,R], L<=R, ta tìm vị trí K sao cho tổng các phần tử trong đoạn [L,K]
+bằng tổng các phần từ trong đoạn [K+1,R], nếu có K thì [L,R] là dãy tổng đối xứng.
+Nghĩa là tìm K để: B[K] - B[L-1] = B[R] - B[K] => B[K] = (B[R] - B[L-1])/2
+
+- Nhận xét 1: Nếu B[K] - B[L-1] chẵn thì ta mới tìm vị trí K.
+- Nhận xét 2: Tìm vị trí K sao cho B[K] = (B[R] - B[L-1])/2. Vì B sắp tăng, nghĩa là
+B[L-1] < B[L] < .... < B[R], nên dùng thuật toán tìm kiếm nhị phân tìm vị trí K nhanh
+hơn và thỏa dữ liệu vào của bài toán.
+Thuật toán kiểm tra đoạn [L, R] là dãy tổng đối xứng không
+Đặt: gt = (B[R] - B[L-1])/2
+    
+boolean np(int gt, int L, int R) {
+    int g;
+    while (L <= R) {
+        g = (L + R) / 2;
+        if (b[g] == gt) {
+            return true;
+        }
+        if (gt > b[g]) {
+            L = g + 1;
+        } else {
+            R = g - 1;
+        }
+    }
+    return false;
+}
+
+- Nhận xét 3: Nếu độ dài dãy cần tìm có, khi đó độ dài lớn hơn hoặc bằng 2.
+Gọi d là độ dài cần tìm, 2 <= d <= n, lần lượt xét từng đoạn có độ dài d và kiểm
+tra đoạn đó có là dãy tổng đối xứng không.
+Bài toán cần tìm độ dài lớn nhất nên ta duyệt đoạn có độ dài d từ N xuống 2.
++ Với mỗi đoạn, ta xác định vị trí đầu đoạn L và vị trí cuối đoạn R. Kiểm tra
+đoạn này có là dãy tổng đối xứng không bằng thuật toán tìm kiếm nhị phân. Nếu
+thỏa d là kết quả cần tìm và dừng. 
