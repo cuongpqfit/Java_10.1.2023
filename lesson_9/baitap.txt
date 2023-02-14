@@ -1,0 +1,84 @@
+===BÀI TẬP PUSH LÊN GITHUB
+
+Java Exception
+Bài 1:
+Viết chương trình nhập vào 2 số thực. Bắt ngoại lệ để khi nhập vào không phải là số và bắt người dùng phải nhập lại cho
+đến khi là số.
+Cài đặt hàm chia, trong đó bắt ngoại lệ nếu số chia là 0 thì thông báo phép chia không hợp lệ và kết thúc chương trình.
+
+
+Bài 2:
+Khai báo 1 mảng có n phần tử các số nguyên, viết hàm nhập các phần tử cho mảng. Bắt ngoại lệ nếu nhập phần từ có giá trị
+là 100 thì in ra các phần tử đã nhập và kết thúc chương trình.
+Gợi ý: Sử dụng từ khóa throw trong java để chủ động ném ra 1 Exception(Ngoại lệ)
+    Cú pháp: throw exception;
+    Code:
+        static void validate(int n) {
+            try {
+                if (n == 100) throw new ArithmeticException("not valid");
+            } catch (ArithmeticException) {
+                //TODO: CODE HERE
+            }
+        }
+
+
+ỨNG DỤNG NGĂN XẾP - STACK
+Bài 3: Đổi số ở hệ thập phân sang số dạng cơ số B bất ký.
+Yêu cầu nhập vào 2 số N(Cơ số 10) và B(2-16). Đổi số N sang cơ số B.
+Hướng dẫn:
+    Chuyển đối hệ cơ số 10 sang hệ cơ số B
+    Cách chuyển đổi số nguyên N từ hệ cơ số 10 sang hệ cơ số 2, trong ảnh dưới đây là ví dụ chuyển số 15 và số 6 sang hệ cơ số 2:
+
+    Gán m = 15.
+    Put phần dư m chia cho 2 (m % 2) vào stack.
+    Gán m = m / 2.
+    Nếu m > 0 quay lại bước 2.
+    Đảo ngược lại stack ta được số cần tính.
+
+Bài 4: Đổi 1 số ở dạng cơ số B về dạng số ở hệ cơ số 10
+Yêu cầu nhập vào 2 số N(Cơ số B) và B(2-16). Đổi số N sang cơ số 10.
+
+Bài 5: Chuyển biểu thức từ dạng trung tố về dạng hậu tố.
+Input:
+    - Dòng 1 nhập vào số N
+    - N dòng tiếp theo nhập toán hạng hoặc toán tử của phép tính.
+Output:
+    - Dòng 1 biểu thức đã nhập
+    - Dong 2 biểu thức dưới dạng hậu tố
+Ví dụ:
+Input       Output
+------------------------
+11          3 + 4 * 2 / ( 1 - 5 )
+3           3 + 4 * 2 / ( 1 - 5 )
++
+4
+*
+2
+/
+(
+1
+-
+5
+)
+
+Gợi ý: Sử dụng stack để lưu toán tử.
+- Phép toán * và / thì có độ ưu tiên cao hơn + và -
+- Duyệt từ trái sang phải của mảng lưu các toán hạng và toán tử
+− Nếu gặp 1 toán hạng (con số hoặc biến) thì nó ghi vào kết quả(mảng hoặc chuỗi kết quả).
+− Nếu gặp dấu mở ngoặc thì đưa nó vào stack.
+− Nếu gặp 1 toán tử (ví dụ là t1) thì thực hiện 2 bước sau:
+    * Nếu stack không rỗng, hoặc còn toán tử t2 ở đỉnh ngăn xếp và độ ưu tiên của t1 nhỏ hơn hay bằng độ ưu tiên của t2
+    thì lấy t2 ra khỏi ngăn xếp và ghi vào kết quả.
+    * Nếu stack rỗng hoặc toán tử t2 ở đỉnh stack có độưu tiên thấp hơn t1 thì ghi (push) t1 vào ngăn xếp
+− Nếu gặp dấu đóng ngoặc thì cứ lấy các tất cả các toán tử trong ngăn xếp ra và ghi vào kết quả cho đến khi lấy được dấu
+mở ngoặc ra khỏi ngăn xếp.
+− Khi đã duyệt hết biểu thức trung tố, lần lượt lấy tất cả toán hạng (nếu có) từ ngăn xếp và ghi vào kết quả.
+
+Bài 6: Sử dụng Stack để tính kết quả của phép tính dạng hậu tố từ bài 5
+Lặp qua các phần tử của của biểu thức hậu tố từ trái qua phải:
+–   Nếu là toán hạng: push vào stack
+–   Nếu là toán tử: pop hai toán hạng trong stack ra và tính giá trị của chúng dựa vào toán tử này.
+Push kết quả đó lại vào stack.
+Phần tử còn sót lại trong stack sau vòng lặp chính là kết quả của biểu thức.
+
+
