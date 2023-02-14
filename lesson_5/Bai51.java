@@ -1,5 +1,3 @@
-package PhucDV.BaiTapNangCao;
-
 import java.util.Scanner;
 
 public class Bai51 {
@@ -24,35 +22,30 @@ public class Bai51 {
         sort(chieuCaoNam);
         sort(chieuCaoNu);
         boolean check = false;
-        int ketQua = 0;
         for (int i = 0; i < chieuCaoNam.length; i++) {
             for (int k : chieuCaoNu) {
                 if (chieuCaoNam[i] > k){
-                ketQua = chieuCaoNam.length - i;
-                check = true;
-                break;
+                    int ketQua = chieuCaoNam.length - i;
+                    System.out.println("số lượng các đôi khiêu vũ là : " + ketQua);
+                    check = true;
+                    break;
                 }
             }
             if(check){
                 break;
             }
         }
-        if(ketQua > chieuCaoNu.length){
-            System.out.println("Số cặp khiêu vũ : " + chieuCaoNu.length);
-        }else{
-            System.out.println("Số cặp khiêu vũ : " + ketQua);
-        }
 
     }
     public static void sort(int [] str){
         for (int i = 1; i < str.length; i++) {
             int j = i;
-         while(j > 0 && str[j - 1] > str[j]){
-             int tmp = str[j - 1];
-             str[j - 1] = str[j];
-             str[j] = tmp;
-             j--;
-         }
+            while(j > 0 && str[j - 1] > str[j]){
+                int tmp = str[j - 1];
+                str[j - 1] = str[j];
+                str[j] = tmp;
+                j--;
+            }
         }
     }
 }

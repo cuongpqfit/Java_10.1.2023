@@ -1,0 +1,222 @@
+===BÀI TẬP PUSH LÊN GITHUB
+
+Java OOP
+Bài 1. Ngân hàng ABC muốn lưu trữ thông tin của mỗi tài khoản như sau:
+Mỗi tài khoản chứa các thông tin:
+     Số tài khoản ( Kiểu long),
+     Tên tài khoản (kiểu chuỗi),
+     Số tiền trong tài khoản (kiểu double)
+(a). Thiết kế lớp Account để lưu trữ các thông tin, lớp bao gồm các phương thức sau:
+     Constructor: Có 2 constructor ( mặc định và đầy đủ tham số)
+     Các phương thức get, set cho từng thuộc tính
+     Phương thức toString để trả về chuỗi chứa toàn bộ thông tin tài khoản, yêu cầu định dạng tiền
+    tệ.
+(b). Thêm các thông tin sau vào lớp Account
+     Hằng số lãi suất có giá trị khởi tạo 0.035
+     Constructor có 2 đối số: số tài khoản, tên tài khoản. Constructor này sẽ khởi tạo số tiền mặc định
+    là 50.
+     Phương thức nạp tiền vào tài khoản: Lấy số tiền hiện tại trong tài khoản + số tiền nạp vào
+     Phương thức rút tiền: Lấy số tiền hiện tại trong tài khoản – (số tiền muốn rút+phí rút tiền)
+     Phương thức đáo hạn: Mỗi lần đến kỳ đáo hạn thì số tiền trong tài khoản = số tiền trong tài
+    khoản + số tiền trong tài khoản * LAISUAT
+     Phương thức chuyển khoản từ tài khoản này sang tài khoản khác
+Chú ý: Mỗi thao tác phải kiểm tra số tiền nạp, rút, chuyển có hợp lệ hay không? (VD: tiền
+nhập vào <0, tiền rút nhiều hơn tiền trong tài khoản thì thông báo không hợp lệ và yêu cầu nhập lại)
+
+Bài 2. Viết lớp HangThucPham mô tả một hàng hóa là hàng thực phẩm trong kho của một siêu thị, có các thuộc tính:
+    - mã hàng (không cho phép sửa, không được để rỗng),
+    - tên hàng (không được để rỗng),
+    - đơn giá (>0),
+    - ngày sản xuất(ngày không được để rỗng)
+    - ngày hết hạn (ngày không được để rỗng, ngày hết hạn phải sau ngày sản xuất).
+Ràng buộc chặt chẽ các ràng buộc trên các trường dữ liệu. Nếu dữ liệu không hợp lệ thì gán giá trị mặc định cho phép
+tương ứng của trường đó.
+    - Tạo 1 constructor có đầy đủ tham số, 1 constructor có tham số là mã hàng.
+    - Viết các phương thức setters/getters.
+    - Viết phương thức kiểm tra một hàng thực phẩm đã hết hạn chưa?
+    - Phương thức toString, trả về chuỗi chứa thông tin của hàng thực phẩm. Trong đó: Định dạng
+    đơn giá có phân cách hàng nghìn. Định dạng kiểu ngày là dd/MM/yyyy.
+    Viết lớp cho phần kiểm nghiệm.
+    Gợi ý: với các trường ngày tháng sử dụng class java.util.Date của java
+
+-- SỬ DỤNG KẾ THỪA TRONG JAVA
+Bài 3. Thư viên X quản lý danh sách các loại sách . Thông tin về các loại sách:
+     Sách giáo khoa: Mã sách, ngày nhập (ngày, tháng, năm), đơn giá, số lượng, nhà xuất bản, tình trạng (mới, cũ).
+        Nếu tình trạng sách là mới thì: thành tiền = số lượng * đơn giá.
+        Nếu tình trạng sách là cũ thì: thành tiền = số lượng * đơn giá * 50%
+     Sách tham khảo: Mã sách, ngày nhập (ngày, tháng, năm), đơn giá, số lượng, nhà xuất bản, thuế.
+    Thành tiền = số lượng * đơn giá +thuế
+Thực hiện các yêu cầu sau:
+     Xây dựng các lớp với chức năng thừa kế(Lớp SÁCH GIÁO KHOA, SÁCH THAM KHẢO kế thừa từ lớp SÁCH).
+     Nhập xuất danh sách các loại sách.
+     Tính tổng thành tiền cho từng loại.
+     Tính trung bình cộng đơn giá của các sách tham khảo.
+     Xuất ra các sách giáo khoa của nhà xuất bản X.
+
+Bài 4. Xây dựng chương trình quản lý danh sách các giao dịch. Hệ thống quản lý 2 loại giao dịch:
+     Giao dịch vàng: Mã giao dịch, ngày giao dịch (ngày, tháng, năm), đơn giá, số lượng, loại vàng.
+    Thành tiền được tính như sau:
+        thành tiền = số lượng * đơn giá.
+     Giao dịch tiền tệ: Mã giao dịch, ngày giao dịch (ngày, tháng, năm), Đơn giá, số lượng, tỉ giá,
+    loại tiền tệ có 3 loại: tiền Việt Nam, tiền USD, tiền Euro. Thành tiền được tính như sau:
+        - Nếu là tiền USD hoặc Euro thì: thành tiền = số lượng * đơn giá* tỉ giá
+        - Nếu là tiền VN thì: thành tiền = số lượng * đơn giá
+Thực hiện các yêu cầu sau:
+     Xây dựng các lớp với chức năng thừa kế.
+     Nhập xuất danh sách các giao dịch.
+     Tính tổng số lượng cho từng loại.
+     Tính trung bình thành tiền của giao dịch tiền tệ.
+     Xuất ra các giao dịch có đơn giá > 1 tỷ.
+
+
+GIẢI THUẬT SẮP XẾP Và TÌM KIẾM
+Bài 4: Viết code giải thuật sắp xếp nổi bọt
+begin BubbleSort(list)
+
+   for all elements of list
+      if list[i] > list[i+1]
+         swap(list[i], list[i+1])
+      end if
+   end for
+
+   return list
+
+end BubbleSort
+
+Bài 5: Viết code giải thuật tìm kiếm nhị phân
+Procedure binary_search
+   A ← sorted array
+   n ← size of array
+   x ← value to be searched
+
+   Set lowerBound = 1
+   Set upperBound = n
+
+   while x not found
+      if upperBound < lowerBound
+         EXIT: x does not exists.
+
+      set midPoint = lowerBound + ( upperBound - lowerBound ) / 2
+
+      if A[midPoint] < x
+         set lowerBound = midPoint + 1
+
+      if A[midPoint] > x
+         set upperBound = midPoint - 1
+
+      if A[midPoint] = x
+         EXIT: x found at location midPoint
+   end while
+
+end procedure
+
+
+Bài 6. Vắt sữa bò
+Vào một buổi sáng anh Bo sắp một đàn bò gồm n con bò để vắt sữa. Anh dự kiến là vào sáng hôm đó, con bò thứ i có khả
+năng sẽ vắt được ai lít sữa. Tuy nhiên đàn bò của anh có đặc tính là cứ mỗi lần vắt sữa một con, những con còn lại trông
+thấy sợ quá nên sẽ bị giảm sản lượng mỗi con 01 lít sữa. Nếu vắt sữa con bò thứ nhất, n-1 con còn lại bị giảm sản lượng.
+Sau đó vắt sữa con bò thứ hai thì n-2 con còn lại bị giảm sản lượng.... Bạn hãy giúp anh Bo tính xem thứ tự vắt sữa bò
+như thế nào để số lượng sữa vắt được là nhiều nhất nhé.
+Input: gồm 2 dòng
+    - Dòng thứ nhất là số nguyên n (1 ≤ n ≤ 100) là số lượng con bò.
+    - Dòng thứ hai gồm n số nguyên a1, a2,..., an (1 ≤ ai ≤ 1000) là sản lượng sữa của các con bò.
+Output:
+- Là một số nguyên xác định số lít sữa nhiều nhất mà anh Bo có thể vắt được.
+
+Input           Output
+4               10
+4 4 4 4
+----------------------
+4               6
+2 1 4 3
+
+
+Bài 7. Ca sĩ Le Ro
+Ca sĩ nổi tiếng Lê Ro vừa nhận được các lời mời lưu diễn của n đoàn ca nhạc. Đoàn thứ i mời lưu diễn từ ngày ai đến ngày
+bi (ai, bi là các số nguyên, ai ≤ bi). Tuy nhiên tại một thời điểm, Lê Ro chỉ có thể tham gia hát cho một đoàn duy nhất
+mà thôi. Với mong muốn đem lời ca tiếng hát của mình đến nhiều khán giả nhất, Lê Ro quyết định sẽ chọn tham gia nhiều
+đoàn nhất có thể. Bạn hãy tính thử xem Lê Ro nên chọn tham gia những đoàn nào để số lượng đoàn là nhiều nhất mà không bị
+trùng nhau về mặt thời gian.
+Input: gồm 02 dòng
+    - Dòng thứ nhất là số nguyên n là số đoàn ca nhạc (1 ≤ n ≤ 1.000)
+    - Trong n dòng tiếp theo, dòng thứ i gồm hai số ai, bi cách nhau một khoảng trắng
+        (1 ≤ ai ≤ bi ≤ 109) là ngày bắt đầu và ngày kết thúc lưu diễn của đoàn thứ i.
+Output:
+    - Là số nguyên xác định số lượng đoàn nhiều nhất mà Lê Ro có thể tham gia.
+
+Input           Output
+6               3
+3 8
+9 12
+6 10
+1 4
+2 7
+11 14
+-------------
+4               4
+5 6
+1 2
+7 8
+3 4
+
+
+Bài tập 8:  Dãy tổng đối xứng
+Một dãy các số nguyên không âm A[1], A[2], ..., A[N] được gọi là dãy tổng đối xứng nếu ta có thể tách dãy đó làm 2 dãy
+có tổng các giá trị bằng nhau. Nghĩa là tồn tại một số k trong đoạn [1..N] sao cho tổng
+A[1] + A[2] + ... + A[k] = A[k+1] + A[k+2] + ... + A[N].
+* Yêu cầu: Cho một dãy gồm N số nguyên không âm. Hãy tìm dãy con gồm các phần tử liên tiếp dài nhất mà cũng là dãy tổng
+đối xứng.
+* Dữ liệu vào: Có cấu trúc:
+      - Dòng đầu tiên chứa số nguyên N (2 ≤ N≤5000).
+      - N dòng tiếp theo, dòng thứ i trong N dòng chứa giá trị của phần tử A[i] của dãy
+        ( i = 1, 2, ..., N). Các số trong dãy không âm và nhỏ hơn 200000
+* Dữ liệu ra: Có cấu trúc:
+       Gồm một dòng: Ghi 1 số là độ dài lớn nhất của dãy con gồm các phần tử liên tiếp dài nhất là dãy tổng đối xứng.
+       Nếu không có kết quả thì ghi số 0
+Input           Output
+6               4
+2
+10
+3
+2
+5
+1
+
+* Ý tưởng
+ Gọi B[i] = A[1]+A[2]+…+A[i]. Với i = 1, 2, ..., N
+Cần tìm đoạn dài nhất dãy tổng đối xứng.
+- Ta có tổng các phần tử từ vị trí L đến R bằng: B[R]-B[L-1].
+- Xét đoạn [L,R], L<=R, ta tìm vị trí K sao cho tổng các phần tử trong đoạn [L,K]
+bằng tổng các phần từ trong đoạn [K+1,R], nếu có K thì [L,R] là dãy tổng đối xứng.
+Nghĩa là tìm K để: B[K] - B[L-1] = B[R] - B[K] => B[K] = (B[R] - B[L-1])/2
+
+- Nhận xét 1: Nếu B[K] - B[L-1] chẵn thì ta mới tìm vị trí K.
+- Nhận xét 2: Tìm vị trí K sao cho B[K] = (B[R] - B[L-1])/2. Vì B sắp tăng, nghĩa là
+B[L-1] < B[L] < .... < B[R], nên dùng thuật toán tìm kiếm nhị phân tìm vị trí K nhanh
+hơn và thỏa dữ liệu vào của bài toán.
+Thuật toán kiểm tra đoạn [L, R] là dãy tổng đối xứng không
+Đặt: gt = (B[R] - B[L-1])/2
+    
+boolean np(int gt, int L, int R) {
+    int g;
+    while (L <= R) {
+        g = (L + R) / 2;
+        if (b[g] == gt) {
+            return true;
+        }
+        if (gt > b[g]) {
+            L = g + 1;
+        } else {
+            R = g - 1;
+        }
+    }
+    return false;
+}
+
+- Nhận xét 3: Nếu độ dài dãy cần tìm có, khi đó độ dài lớn hơn hoặc bằng 2.
+Gọi d là độ dài cần tìm, 2 <= d <= n, lần lượt xét từng đoạn có độ dài d và kiểm
+tra đoạn đó có là dãy tổng đối xứng không.
+Bài toán cần tìm độ dài lớn nhất nên ta duyệt đoạn có độ dài d từ N xuống 2.
++ Với mỗi đoạn, ta xác định vị trí đầu đoạn L và vị trí cuối đoạn R. Kiểm tra
+đoạn này có là dãy tổng đối xứng không bằng thuật toán tìm kiếm nhị phân. Nếu
+thỏa d là kết quả cần tìm và dừng. 
