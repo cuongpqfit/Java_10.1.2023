@@ -1,0 +1,57 @@
+===BÀI TẬP PUSH LÊN GITHUB
+
+ĐỌC TỪ FILE INPUT.TXT GHI KẾT QUẢ RA FILE OUTPUT.TXT
+
+Bài 1. Đếm có bao nhiêu khoảng trắng trong chuỗi.
+Bài 2. Nhập vào một chuỗi, hãy loại bỏ những khoảng trắng thừa trong chuỗi.
+Bài 3. Nhập vào hai chuỗi s1 và s2, nối chuỗi s2 vào s1. Xuất chuỗi s1 ra file
+Bài 4. Đổi tất cả các kí tự có trong chuỗi thành chữ thường.
+Bài 5. Đổi tất cả các kí tự trong chuỗi sang chữ in hoa
+
+
+=========
+Bài 6: Đổi 1 số ở dạng cơ số B về dạng số ở hệ cơ số 10
+Yêu cầu nhập vào 2 số N(Cơ số B) và B(2-16). Đổi số N sang cơ số 10.
+
+Bài 7: Chuyển biểu thức từ dạng trung tố về dạng hậu tố.
+Input:
+    - Dòng 1 nhập vào số N
+    - N dòng tiếp theo nhập toán hạng hoặc toán tử của phép tính.
+Output:
+    - Dòng 1 biểu thức đã nhập
+    - Dong 2 biểu thức dưới dạng hậu tố
+Ví dụ:
+Input       Output
+------------------------
+11          3 + 4 * 2 / ( 1 - 5 )
+3           3 + 4 * 2 / ( 1 - 5 )
++
+4
+*
+2
+/
+(
+1
+-
+5
+)
+
+Gợi ý: Sử dụng stack để lưu toán tử.
+- Phép toán * và / thì có độ ưu tiên cao hơn + và -
+- Duyệt từ trái sang phải của mảng lưu các toán hạng và toán tử
+− Nếu gặp 1 toán hạng (con số hoặc biến) thì nó ghi vào kết quả(mảng hoặc chuỗi kết quả).
+− Nếu gặp dấu mở ngoặc thì đưa nó vào stack.
+− Nếu gặp 1 toán tử (ví dụ là t1) thì thực hiện 2 bước sau:
+    * Nếu stack không rỗng, hoặc còn toán tử t2 ở đỉnh ngăn xếp và độ ưu tiên của t1 nhỏ hơn hay bằng độ ưu tiên của t2
+    thì lấy t2 ra khỏi ngăn xếp và ghi vào kết quả.
+    * Nếu stack rỗng hoặc toán tử t2 ở đỉnh stack có độưu tiên thấp hơn t1 thì ghi (push) t1 vào ngăn xếp
+− Nếu gặp dấu đóng ngoặc thì cứ lấy các tất cả các toán tử trong ngăn xếp ra và ghi vào kết quả cho đến khi lấy được dấu
+mở ngoặc ra khỏi ngăn xếp.
+− Khi đã duyệt hết biểu thức trung tố, lần lượt lấy tất cả toán hạng (nếu có) từ ngăn xếp và ghi vào kết quả.
+
+Bài 8: Sử dụng Stack để tính kết quả của phép tính dạng hậu tố từ bài 5
+Lặp qua các phần tử của của biểu thức hậu tố từ trái qua phải:
+–   Nếu là toán hạng: push vào stack
+–   Nếu là toán tử: pop hai toán hạng trong stack ra và tính giá trị của chúng dựa vào toán tử này.
+Push kết quả đó lại vào stack.
+Phần tử còn sót lại trong stack sau vòng lặp chính là kết quả của biểu thức.
