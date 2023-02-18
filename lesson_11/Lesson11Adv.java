@@ -1,0 +1,46 @@
+public class Lesson11Adv {
+    public static void main(String[] args) throws InterruptedException {
+        //1 Công việc với nhiều luồng
+//        FirstThread t11 = new FirstThread("Thread 1", 500);
+//        Thread thread11 = new Thread(t11);
+//        Thread thread21 = new Thread(t11);
+//        thread11.start();
+//        try {
+//            thread11.join();
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+//        thread21.start();
+//
+//        System.out.println("Ket thuc");
+
+
+
+        //Gọi đang luồng nhưng với phương thức đồng bộ.
+        //Ngăn chặn nhiều luồng cùng thực thi 1 phương thức tại 1 thời điểm
+        SyncMethod t1 = new SyncMethod("Thread 1", 500);
+        SyncMethod t2 = new SyncMethod("Thread 2", 500);
+        Thread thread211 = new Thread(t1);
+        Thread thread221 = new Thread(t2);
+
+        thread211.start();
+//        thread211.join();
+        thread221.start();
+//        //Nhiều công việc nhiều luồng
+//        //Tao object từ class implement Runable
+//        FirstThread t1 = new FirstThread("Thread 1", 200);
+//        FirstThread t2 = new FirstThread("Thread 2", 200);
+//        Thread thread1 = new Thread(t1);
+//        Thread thread2 = new Thread(t2);
+//        thread1.start();
+//        thread2.start();
+////
+////
+////        //Tao object từ class kế thừa class Thread
+//        SimpleThread simpleThread1 = new SimpleThread("SimpleThread 1");
+//        SimpleThread simpleThread2 = new SimpleThread("SimpleThread 2");
+//        simpleThread1.start();
+//        simpleThread2.start();
+
+    }
+}
