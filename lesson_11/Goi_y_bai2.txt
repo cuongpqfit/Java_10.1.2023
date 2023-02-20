@@ -1,0 +1,115 @@
+Cách tiếp cận để giải quyết bài toán sử dụng queue để truyền dữ liệu giữa các thread. 
+Cụ thể, chúng ta sẽ sử dụng một BlockingQueue để lưu trữ dữ liệu và truyền nó giữa các thread. 
+BlockingQueue là một interface trong Java có thể được sử dụng để lưu trữ các phần tử và đồng bộ hóa các hoạt động truy cập đến chúng. 
+Các phần tử trong BlockingQueue có thể được truy xuất và xử lý bởi các thread khác nhau trong khi vẫn đảm bảo tính toàn vẹn của dữ liệu
+Chương trình sẽ có 3 thread:
+
+Thread 1 sẽ đọc số từ file "number.txt" và kiểm tra xem số đó là chẵn hay lẻ. 
+Nếu số đó là chẵn thì sẽ được đưa vào BlockingQueue để cho Thread 2 xử lý, nếu không thì sẽ được đưa vào BlockingQueue để cho Thread 3 xử lý.
+
+Thread 2 sẽ lấy số từ BlockingQueue và in ra tất cả các ước số của số đó vào file "output2.txt".
+
+Thread 3 sẽ lấy số từ BlockingQueue và tính bình phương của số đó và in ra vào file "output3.txt.
+
+Code
+import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.LinkedBlockingQueue;
+
+public class Main {
+    public static void main(String[] args) {
+        BlockingQueue<Integer> evenQueue = new LinkedBlockingQueue<>();
+        BlockingQueue<Integer> oddQueue = new LinkedBlockingQueue<>();
+        new Thread(new ReadNumberTask(evenQueue, oddQueue)).start();
+        new Thread(new PrintFactorsTask(evenQueue)).start();
+        new Thread(new PrintSquareTask(oddQueue)).start();
+    }
+}
+
+class ReadNumberTask implements Runnable {
+    private BlockingQueue<Integer> evenQueue;
+    private BlockingQueue<Integer> oddQueue;
+
+    public ReadNumberTask(BlockingQueue<Integer> evenQueue, BlockingQueue<Integer> oddQueue) {
+        this.evenQueue = evenQueue;
+        this.oddQueue = oddQueue;
+    }
+
+    public void run() {
+        try {
+            BufferedReader reader = new BufferedReader(new FileReader("number.txt"));
+            String line = reader.readLine();
+            int n = Integer.parseInt(line);
+            while ((line = reader.readLine()) != null) {
+                int number = Integer.parseInt(line);
+                if (number % 2 == 0) {
+                    evenQueue.put(number);
+                } else {
+                    oddQueue.put(number);
+                }
+            }
+            reader.close();
+        } catch (IOException | InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+public class PrintFactorsTask implements Runnable {
+    private BlockingQueue<Integer> queue;
+    private FileWriter writer;
+
+    public PrintFactorsTask(BlockingQueue<Integer> queue, FileWriter writer) {
+        this.queue = queue;
+        this.writer = writer;
+    }
+
+    @Override
+    public void run() {
+        try {
+            while (true) {
+                int number = queue.take();
+                List<Integer> factors = getFactors(number);
+                String output = String.format("Thread -2 %d = %s", number, factors.toString());
+                writer.write(output + "\n");
+                writer.flush();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
+    }
+
+    private List<Integer> getFactors(int number) {
+        List<Integer> factors = new ArrayList<>();
+        for (int i = 1; i <= number; i++) {
+            if (number % i == 0) {
+                factors.add(i);
+            }
+        }
+        return factors;
+    }
+}
+
+class PrintSquareTask implements Runnable {
+    private final int number;
+    private final String outputFileName;
+
+    public PrintSquareTask(int number, String outputFileName) {
+        this.number = number;
+        this.outputFileName = outputFileName;
+    }
+
+    @Override
+    public void run() {
+        try (PrintWriter writer = new PrintWriter(new FileWriter(outputFileName, true))) {
+            writer.println("Thread -3: " + number + " = " + (number * number));
+        } catch (IOException e) {
+            System.err.println(e);
+        }
+    }
+}
+
