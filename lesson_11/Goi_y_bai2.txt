@@ -57,7 +57,7 @@ class ReadNumberTask implements Runnable {
     }
 }
 
-public class PrintFactorsTask implements Runnable {
+class PrintFactorsTask implements Runnable {
     private BlockingQueue<Integer> queue;
     private FileWriter writer;
 
