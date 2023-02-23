@@ -1,0 +1,18 @@
+===BÀI TẬP PUSH LÊN GITHUB
+
+                      +--------+
+                      | Server |
+                      +--------+
+                          |
+              +-----------+------------+
+              |                        |
+          +-------+               +-------+
+          | Client|               | Client|
+          +-------+               +-------+
+             ...                      ...
+          +-------+               +-------+
+          | Client|               | Client|
+          +-------+               +-------+
+
+
+Phát triển tiếp từ ví dụ để trở thành ứng dụng 1 server chấp nhận kết nối từ nhiều client và trao đổi dữ liệu dạng String
