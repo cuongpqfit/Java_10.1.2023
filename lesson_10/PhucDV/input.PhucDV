@@ -1,0 +1,6 @@
+Gói java.io chứa gần như tất cả các lớp bạn cần để thực hiện input và output (I/O) trong Java.
+Tất cả những stream này biểu diễn một nguồn input và một đích đến output. Stream trong java.io package
+hỗ trợ nhiều như liệu như các kiểu gốc, Object, các ký tự nội bộ, …
+
+Một stream có thể được định nghĩa như là một dãy liên tục dữ liệu.
+InputStream được sử dụng để đọc dữ liệu từ một nguồn và OutputStream được sử dụng để ghi dữ liệu tới một đích đến.

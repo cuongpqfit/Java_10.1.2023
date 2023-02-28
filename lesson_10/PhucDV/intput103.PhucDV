@@ -1,0 +1,2 @@
+Java cung cấp sự hỗ trợ mạnh mẽ nhưng linh hoạt cho I/O liên quan tới các File và các mạng nhưng trong phần hướng dẫn này,
+chúng tôi chỉ bàn luận tính năng cơ bản liên quan tới các stream và I/O. Chúng ta sẽ xem xét từng ví dụ được sử dụng phổ biến nhất.

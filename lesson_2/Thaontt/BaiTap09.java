@@ -1,4 +1,4 @@
-package BaiTap;
+package Thaontt;
 
 import java.util.Scanner;
 
