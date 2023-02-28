@@ -3,16 +3,10 @@ import java.time.LocalDate;
 import java.util.Date;
 public class HangThucPham {
 
-//     Bài 2. Viết lớp HangThucPham mô tả một hàng hóa là hàng thực phẩm trong kho của một siêu thị, có các thuộc tính:
-//     - mã hàng (không cho phép sửa, không được để rỗng),
 private double maHang;
-//     - tên hàng (không được để rỗng),
 private String tenMonHang;
-//     - đơn giá (>0),
 private double donGia;
-//     - ngày sản xuất(ngày không được để rỗng)
 private Date ngaySanXuat;
-//     - ngày hết hạn (ngày không được để rỗng, ngày hết hạn phải sau ngày sản xuất).
 private Date ngayHetHan;
 
 // SimpleDateFormat df = new SimpleDateFormat("dd/MM/yyyy");
@@ -29,6 +23,7 @@ private Date ngayHetHan;
 // }
 
 // }
+
 //     - Viết các phương thức setters/getters.
 
 public double getMaHang() {

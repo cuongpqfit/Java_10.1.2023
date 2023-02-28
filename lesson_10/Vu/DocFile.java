@@ -1,12 +1,11 @@
-// package Thaontt;
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-public class BaiTap01 {
+public class DocFile {
+
     public static void main(String[] args) {
         FileInputStream fileInputStream = null;
         System.out.print((char) 100);
@@ -49,3 +48,5 @@ public class BaiTap01 {
         }
     }
 }
+
+

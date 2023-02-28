@@ -8,7 +8,7 @@ public class Lesson11 {
         thread11.start();
 
 
-        //Nhiều công việc nhiều luồng
+        //Nhiều công việc nhiều luồngi
         //Tao object từ class implement Runable
         FirstThread t1 = new FirstThread("Thread 1", 200);
         FirstThread t2 = new FirstThread("Thread 2", 200);

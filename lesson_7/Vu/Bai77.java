@@ -22,9 +22,6 @@ public class Bai77 {
     }
     System.out.println();
 
-    int[] c = new int [n];
-    int[] d = new int [n];
-
     int k = 0;
     int count = 1;
     
