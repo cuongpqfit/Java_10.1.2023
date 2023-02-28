@@ -18,7 +18,6 @@ public class Server {
                 Socket clientSocket = serverSocket.accept();
                 SocketServerService client = new SocketServerService(clientSocket);
                 client.start();
-                System.out.println("XXXXXXXXX");
                 listClient.add(client);
 
             }
