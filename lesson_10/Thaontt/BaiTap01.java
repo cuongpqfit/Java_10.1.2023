@@ -1,6 +1,9 @@
-package Thaontt;
+// package Thaontt;
 
-import java.io.*;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Scanner;
 
 public class BaiTap01 {
@@ -9,7 +12,9 @@ public class BaiTap01 {
         System.out.print((char) 100);
 
         try {
-            fileInputStream = new FileInputStream("/Users/thanhthao/Java_10.1.2023/lesson_10/Thaontt/INPUT01.TXT");
+            fileInputStream = new FileInputStream("//Users//vule//Documents//new//Java_10.1.2023//lesson_10//Vu//input.txt");
+            // fileInputStream = new FileInputStream("/Users/thanhthao/Java_10.1.2023/lesson_10/Thaontt/INPUT01.TXT");
+            
             Scanner scanner = new Scanner(fileInputStream);
             String a = scanner.nextLine();
             scanner.close();

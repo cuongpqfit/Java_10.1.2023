@@ -11,8 +11,8 @@ public class FileInputStreamReader {
         System.out.print((char) 100);
         //Khởi tạo đối tượng fileInpurtStream truyền vào duong dan đến file muốn đoc
         try {
-            fileInputStream = new FileInputStream("D:\\Java_10.1.2023\\lesson_10\\example.inp");
-
+            fileInputStream = new FileInputStream("//Users//vule//Documents//new//Java_10.1.2023//lesson_10//Vu//input.txt");
+            //"/Users/vule/Documents/new/Java_10.1.2023/lesson_10/Vu/input.txt"
             int i = 0;
             byte[] b = new byte[3];
             while ((i = fileInputStream.read()) != -1) {

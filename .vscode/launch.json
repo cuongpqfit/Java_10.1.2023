@@ -1,0 +1,1785 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SocketClientJava",
+            "request": "launch",
+            "mainClass": "lesson_14.Vu.SocketClientJava",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch BufferInputStreamFile",
+            "request": "launch",
+            "mainClass": "BufferInputStreamFile",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai1103",
+            "request": "launch",
+            "mainClass": "Bai1103",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai91",
+            "request": "launch",
+            "mainClass": "Bai91",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai93",
+            "request": "launch",
+            "mainClass": "Bai93",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Account",
+            "request": "launch",
+            "mainClass": "Account",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ojbphanso",
+            "request": "launch",
+            "mainClass": "An.Ojbphanso",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai51",
+            "request": "launch",
+            "mainClass": "Bai51",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai61",
+            "request": "launch",
+            "mainClass": "Bai61",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai62",
+            "request": "launch",
+            "mainClass": "Bai62",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai63",
+            "request": "launch",
+            "mainClass": "Bai63",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai74",
+            "request": "launch",
+            "mainClass": "Bai74",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai75",
+            "request": "launch",
+            "mainClass": "Bai75",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai76",
+            "request": "launch",
+            "mainClass": "Bai76",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai77",
+            "request": "launch",
+            "mainClass": "Bai77",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch HangThucPham",
+            "request": "launch",
+            "mainClass": "HangThucPham",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertionSort",
+            "request": "launch",
+            "mainClass": "InsertionSort",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lesson5",
+            "request": "launch",
+            "mainClass": "Lesson5",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lesson7",
+            "request": "launch",
+            "mainClass": "Lesson7",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai2",
+            "request": "launch",
+            "mainClass": "PhamBaMinh.Bai2",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai3",
+            "request": "launch",
+            "mainClass": "PhamBaMinh.Bai3",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "PhamBaMinh.Test",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai71",
+            "request": "launch",
+            "mainClass": "PhucDV.Bai71",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai72",
+            "request": "launch",
+            "mainClass": "PhucDV.Bai72",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai73",
+            "request": "launch",
+            "mainClass": "PhucDV.Bai73",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai74GiaoDich",
+            "request": "launch",
+            "mainClass": "PhucDV.Bai74GiaoDich",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai74NoiBot",
+            "request": "launch",
+            "mainClass": "PhucDV.Bai74NoiBot",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai75NhiPhan",
+            "request": "launch",
+            "mainClass": "PhucDV.Bai75NhiPhan",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai762VatSuaBo",
+            "request": "launch",
+            "mainClass": "PhucDV.Bai762VatSuaBo",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai1365",
+            "request": "launch",
+            "mainClass": "PhucDV.BaiTapNangCao.Bai1365",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai1464",
+            "request": "launch",
+            "mainClass": "PhucDV.BaiTapNangCao.Bai1464",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai1859",
+            "request": "launch",
+            "mainClass": "PhucDV.BaiTapNangCao.Bai1859",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai1913",
+            "request": "launch",
+            "mainClass": "PhucDV.BaiTapNangCao.Bai1913",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai2418",
+            "request": "launch",
+            "mainClass": "PhucDV.BaiTapNangCao.Bai2418",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai51(1)",
+            "request": "launch",
+            "mainClass": "PhucDV.BaiTapNangCao.Bai51",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai52",
+            "request": "launch",
+            "mainClass": "PhucDV.BaiTapNangCao.Bai52",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai53",
+            "request": "launch",
+            "mainClass": "PhucDV.BaiTapNangCao.Bai53",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai905",
+            "request": "launch",
+            "mainClass": "PhucDV.BaiTapNangCao.Bai905",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sach",
+            "request": "launch",
+            "mainClass": "Sach",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch TaiKhoan$TestBaiNganHang",
+            "request": "launch",
+            "mainClass": "TaiKhoan$TestBaiNganHang",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestBaiNganHang",
+            "request": "launch",
+            "mainClass": "TestBaiNganHang",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestDate",
+            "request": "launch",
+            "mainClass": "TestDate",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestSach",
+            "request": "launch",
+            "mainClass": "TestSach",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearch",
+            "request": "launch",
+            "mainClass": "Thaontt.BinarySearch",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch BubbleSort",
+            "request": "launch",
+            "mainClass": "Thaontt.BubbleSort",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuanLyGiaoDich",
+            "request": "launch",
+            "mainClass": "Thaontt.QuanLyCacGiaoDich.QuanLyGiaoDich",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuanLySach",
+            "request": "launch",
+            "mainClass": "Thaontt.QuanLyCacLoaiSach.QuanLySach",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch VatSuaBo",
+            "request": "launch",
+            "mainClass": "Thaontt.VatSuaBo",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai2(1)",
+            "request": "launch",
+            "mainClass": "Vu.Bai2",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai3(1)",
+            "request": "launch",
+            "mainClass": "Vu.Bai3",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaiNc1",
+            "request": "launch",
+            "mainClass": "Vu.BaiNc1",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch BtLC1365",
+            "request": "launch",
+            "mainClass": "Vu.BtLC1365",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch BtLC2418",
+            "request": "launch",
+            "mainClass": "Vu.BtLC2418",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestPhanSo",
+            "request": "launch",
+            "mainClass": "Vu.TestPhanSo",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch bai2",
+            "request": "launch",
+            "mainClass": "bai2",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch bai3",
+            "request": "launch",
+            "mainClass": "bai3",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test(1)",
+            "request": "launch",
+            "mainClass": "bqtruong.Bai1.Test",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai2(2)",
+            "request": "launch",
+            "mainClass": "bqtruong.Bai2.Bai2",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai3(2)",
+            "request": "launch",
+            "mainClass": "bqtruong.Bai3.Bai3",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai1",
+            "request": "launch",
+            "mainClass": "cuongpq.bai1.Bai1",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bt1",
+            "request": "launch",
+            "mainClass": "lesson_2.An.Bt1",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bt10",
+            "request": "launch",
+            "mainClass": "lesson_2.An.Bt10",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bt11",
+            "request": "launch",
+            "mainClass": "lesson_2.An.Bt11",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bt2",
+            "request": "launch",
+            "mainClass": "lesson_2.An.Bt2",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bt3",
+            "request": "launch",
+            "mainClass": "lesson_2.An.Bt3",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bt4",
+            "request": "launch",
+            "mainClass": "lesson_2.An.Bt4",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bt5",
+            "request": "launch",
+            "mainClass": "lesson_2.An.Bt5",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bt6",
+            "request": "launch",
+            "mainClass": "lesson_2.An.Bt6",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bt7",
+            "request": "launch",
+            "mainClass": "lesson_2.An.Bt7",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bt8",
+            "request": "launch",
+            "mainClass": "lesson_2.An.Bt8",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bt9",
+            "request": "launch",
+            "mainClass": "lesson_2.An.Bt9",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaType",
+            "request": "launch",
+            "mainClass": "lesson_2.JavaType",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai10",
+            "request": "launch",
+            "mainClass": "lesson_2.Lien.Bai10",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai11",
+            "request": "launch",
+            "mainClass": "lesson_2.Lien.Bai11",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai2(3)",
+            "request": "launch",
+            "mainClass": "lesson_2.Lien.Bai2",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai3(3)",
+            "request": "launch",
+            "mainClass": "lesson_2.Lien.Bai3",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai4",
+            "request": "launch",
+            "mainClass": "lesson_2.Lien.Bai4",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai5",
+            "request": "launch",
+            "mainClass": "lesson_2.Lien.Bai5",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai6",
+            "request": "launch",
+            "mainClass": "lesson_2.Lien.Bai6",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai7",
+            "request": "launch",
+            "mainClass": "lesson_2.Lien.Bai7",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai8",
+            "request": "launch",
+            "mainClass": "lesson_2.Lien.Bai8",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai9",
+            "request": "launch",
+            "mainClass": "lesson_2.Lien.Bai9",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch bai1",
+            "request": "launch",
+            "mainClass": "lesson_2.Lien.bai1",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Operators",
+            "request": "launch",
+            "mainClass": "lesson_2.Operators",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai1(1)",
+            "request": "launch",
+            "mainClass": "lesson_2.PhamBaMinh.Bai1",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai10(1)",
+            "request": "launch",
+            "mainClass": "lesson_2.PhamBaMinh.Bai10",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai11(1)",
+            "request": "launch",
+            "mainClass": "lesson_2.PhamBaMinh.Bai11",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai2(4)",
+            "request": "launch",
+            "mainClass": "lesson_2.PhamBaMinh.Bai2",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai3(4)",
+            "request": "launch",
+            "mainClass": "lesson_2.PhamBaMinh.Bai3",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai4(1)",
+            "request": "launch",
+            "mainClass": "lesson_2.PhamBaMinh.Bai4",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai5(1)",
+            "request": "launch",
+            "mainClass": "lesson_2.PhamBaMinh.Bai5",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai6(1)",
+            "request": "launch",
+            "mainClass": "lesson_2.PhamBaMinh.Bai6",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai7(1)",
+            "request": "launch",
+            "mainClass": "lesson_2.PhamBaMinh.Bai7",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai8(1)",
+            "request": "launch",
+            "mainClass": "lesson_2.PhamBaMinh.Bai8",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai9(1)",
+            "request": "launch",
+            "mainClass": "lesson_2.PhamBaMinh.Bai9",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaCore",
+            "request": "launch",
+            "mainClass": "lesson_2.PhucDV.JavaCore",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReadInput",
+            "request": "launch",
+            "mainClass": "lesson_2.ReadInput",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaiTap01",
+            "request": "launch",
+            "mainClass": "lesson_2.Thaontt.BaiTap01",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaiTap02",
+            "request": "launch",
+            "mainClass": "lesson_2.Thaontt.BaiTap02",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaiTap03",
+            "request": "launch",
+            "mainClass": "lesson_2.Thaontt.BaiTap03",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaiTap04",
+            "request": "launch",
+            "mainClass": "lesson_2.Thaontt.BaiTap04",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaiTap05",
+            "request": "launch",
+            "mainClass": "lesson_2.Thaontt.BaiTap05",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaiTap06",
+            "request": "launch",
+            "mainClass": "lesson_2.Thaontt.BaiTap06",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaiTap07",
+            "request": "launch",
+            "mainClass": "lesson_2.Thaontt.BaiTap07",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaiTap08",
+            "request": "launch",
+            "mainClass": "lesson_2.Thaontt.BaiTap08",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaiTap09",
+            "request": "launch",
+            "mainClass": "lesson_2.Thaontt.BaiTap09",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaiTap10",
+            "request": "launch",
+            "mainClass": "lesson_2.Thaontt.BaiTap10",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaiTap11",
+            "request": "launch",
+            "mainClass": "lesson_2.Thaontt.BaiTap11",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Baitap1",
+            "request": "launch",
+            "mainClass": "lesson_2.VuLe.Baitap1",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Baitap10",
+            "request": "launch",
+            "mainClass": "lesson_2.VuLe.Baitap10",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Baitap11",
+            "request": "launch",
+            "mainClass": "lesson_2.VuLe.Baitap11",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Baitap2",
+            "request": "launch",
+            "mainClass": "lesson_2.VuLe.Baitap2",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Baitap3",
+            "request": "launch",
+            "mainClass": "lesson_2.VuLe.Baitap3",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Baitap4",
+            "request": "launch",
+            "mainClass": "lesson_2.VuLe.Baitap4",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Baitap5",
+            "request": "launch",
+            "mainClass": "lesson_2.VuLe.Baitap5",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Baitap6",
+            "request": "launch",
+            "mainClass": "lesson_2.VuLe.Baitap6",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Baitap7",
+            "request": "launch",
+            "mainClass": "lesson_2.VuLe.Baitap7",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Baitap8",
+            "request": "launch",
+            "mainClass": "lesson_2.VuLe.Baitap8",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Baitap9",
+            "request": "launch",
+            "mainClass": "lesson_2.VuLe.Baitap9",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai1(2)",
+            "request": "launch",
+            "mainClass": "lesson_2.bqtruong.Bai1",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai10(2)",
+            "request": "launch",
+            "mainClass": "lesson_2.bqtruong.Bai10",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai11(2)",
+            "request": "launch",
+            "mainClass": "lesson_2.bqtruong.Bai11",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai2(5)",
+            "request": "launch",
+            "mainClass": "lesson_2.bqtruong.Bai2",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai3(5)",
+            "request": "launch",
+            "mainClass": "lesson_2.bqtruong.Bai3",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai4(2)",
+            "request": "launch",
+            "mainClass": "lesson_2.bqtruong.Bai4",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai5(2)",
+            "request": "launch",
+            "mainClass": "lesson_2.bqtruong.Bai5",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai6(2)",
+            "request": "launch",
+            "mainClass": "lesson_2.bqtruong.Bai6",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai7(2)",
+            "request": "launch",
+            "mainClass": "lesson_2.bqtruong.Bai7",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai8(2)",
+            "request": "launch",
+            "mainClass": "lesson_2.bqtruong.Bai8",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai9(2)",
+            "request": "launch",
+            "mainClass": "lesson_2.bqtruong.Bai9",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Conditions",
+            "request": "launch",
+            "mainClass": "lesson_3.Conditions",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fibonaci",
+            "request": "launch",
+            "mainClass": "lesson_3.Fibonaci",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Looper",
+            "request": "launch",
+            "mainClass": "lesson_3.Looper",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai1(3)",
+            "request": "launch",
+            "mainClass": "lesson_3.PhamBaMinh.Bai1",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai2(6)",
+            "request": "launch",
+            "mainClass": "lesson_3.PhamBaMinh.Bai2",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai3(6)",
+            "request": "launch",
+            "mainClass": "lesson_3.PhamBaMinh.Bai3",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai4(3)",
+            "request": "launch",
+            "mainClass": "lesson_3.PhamBaMinh.Bai4",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai5(3)",
+            "request": "launch",
+            "mainClass": "lesson_3.PhamBaMinh.Bai5",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai6(3)",
+            "request": "launch",
+            "mainClass": "lesson_3.PhamBaMinh.Bai6",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai7(3)",
+            "request": "launch",
+            "mainClass": "lesson_3.PhamBaMinh.Bai7",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai8(3)",
+            "request": "launch",
+            "mainClass": "lesson_3.PhamBaMinh.Bai8",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai9(3)",
+            "request": "launch",
+            "mainClass": "lesson_3.PhamBaMinh.Bai9",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai1(4)",
+            "request": "launch",
+            "mainClass": "lesson_3.PhucDV.Bai1",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai2(7)",
+            "request": "launch",
+            "mainClass": "lesson_3.PhucDV.Bai2",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai3(7)",
+            "request": "launch",
+            "mainClass": "lesson_3.PhucDV.Bai3",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai4(4)",
+            "request": "launch",
+            "mainClass": "lesson_3.PhucDV.Bai4",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai5(4)",
+            "request": "launch",
+            "mainClass": "lesson_3.PhucDV.Bai5",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai6(4)",
+            "request": "launch",
+            "mainClass": "lesson_3.PhucDV.Bai6",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai7(4)",
+            "request": "launch",
+            "mainClass": "lesson_3.PhucDV.Bai7",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai8(4)",
+            "request": "launch",
+            "mainClass": "lesson_3.PhucDV.Bai8",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai9(4)",
+            "request": "launch",
+            "mainClass": "lesson_3.PhucDV.Bai9",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaiTap01(1)",
+            "request": "launch",
+            "mainClass": "lesson_3.Thaontt.BaiTap01",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaiTap03(1)",
+            "request": "launch",
+            "mainClass": "lesson_3.Thaontt.BaiTap03",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch baiTap02",
+            "request": "launch",
+            "mainClass": "lesson_3.Thaontt.baiTap02",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai8(5)",
+            "request": "launch",
+            "mainClass": "lesson_3.Vu.Bai8",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaitapLeetcode1929",
+            "request": "launch",
+            "mainClass": "lesson_3.Vu.BaitapLeetcode1929",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Leetcode1480",
+            "request": "launch",
+            "mainClass": "lesson_3.Vu.Leetcode1480",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai1(5)",
+            "request": "launch",
+            "mainClass": "lesson_3.bqtruong.Bai1",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai3(8)",
+            "request": "launch",
+            "mainClass": "lesson_3.cuongpq.Bai3",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai4(5)",
+            "request": "launch",
+            "mainClass": "lesson_3.cuongpq.Bai4",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai5(5)",
+            "request": "launch",
+            "mainClass": "lesson_3.cuongpq.Bai5",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai1(6)",
+            "request": "launch",
+            "mainClass": "lesson_3.nvhoang.Bai1",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai2(8)",
+            "request": "launch",
+            "mainClass": "lesson_3.nvhoang.Bai2",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai5(6)",
+            "request": "launch",
+            "mainClass": "lesson_3.nvhoang.Bai5",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai6(5)",
+            "request": "launch",
+            "mainClass": "lesson_3.nvhoang.Bai6",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai7(5)",
+            "request": "launch",
+            "mainClass": "lesson_3.nvhoang.Bai7",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai8(6)",
+            "request": "launch",
+            "mainClass": "lesson_3.nvhoang.Bai8",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai9(5)",
+            "request": "launch",
+            "mainClass": "lesson_3.nvhoang.Bai9",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai1(7)",
+            "request": "launch",
+            "mainClass": "lesson_4.An.Bai1",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai2(9)",
+            "request": "launch",
+            "mainClass": "lesson_4.An.Bai2",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai3(9)",
+            "request": "launch",
+            "mainClass": "lesson_4.An.Bai3",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai4(6)",
+            "request": "launch",
+            "mainClass": "lesson_4.An.Bai4",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai5(7)",
+            "request": "launch",
+            "mainClass": "lesson_4.An.Bai5",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch EnumType",
+            "request": "launch",
+            "mainClass": "lesson_4.EnumType",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai1(8)",
+            "request": "launch",
+            "mainClass": "lesson_4.Lien.Bai1",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai2(10)",
+            "request": "launch",
+            "mainClass": "lesson_4.Lien.Bai2",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai3(10)",
+            "request": "launch",
+            "mainClass": "lesson_4.Lien.Bai3",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai4(7)",
+            "request": "launch",
+            "mainClass": "lesson_4.Lien.Bai4",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai5(8)",
+            "request": "launch",
+            "mainClass": "lesson_4.Lien.Bai5",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai1(9)",
+            "request": "launch",
+            "mainClass": "lesson_4.PhamBaMinh.Bai1",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai2(11)",
+            "request": "launch",
+            "mainClass": "lesson_4.PhamBaMinh.Bai2",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai3(11)",
+            "request": "launch",
+            "mainClass": "lesson_4.PhamBaMinh.Bai3",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai4(8)",
+            "request": "launch",
+            "mainClass": "lesson_4.PhamBaMinh.Bai4",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai5(9)",
+            "request": "launch",
+            "mainClass": "lesson_4.PhamBaMinh.Bai5",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai41",
+            "request": "launch",
+            "mainClass": "lesson_4.PhucDV.Bai41",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai42",
+            "request": "launch",
+            "mainClass": "lesson_4.PhucDV.Bai42",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai43",
+            "request": "launch",
+            "mainClass": "lesson_4.PhucDV.Bai43",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai44",
+            "request": "launch",
+            "mainClass": "lesson_4.PhucDV.Bai44",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai45",
+            "request": "launch",
+            "mainClass": "lesson_4.PhucDV.Bai45",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReaderArray",
+            "request": "launch",
+            "mainClass": "lesson_4.ReaderArray",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReaderArrayInt",
+            "request": "launch",
+            "mainClass": "lesson_4.ReaderArrayInt",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringType",
+            "request": "launch",
+            "mainClass": "lesson_4.StringType",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaiTap01(2)",
+            "request": "launch",
+            "mainClass": "lesson_4.Thaontt.BaiTap01",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaiTap02(1)",
+            "request": "launch",
+            "mainClass": "lesson_4.Thaontt.BaiTap02",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaiTap03(2)",
+            "request": "launch",
+            "mainClass": "lesson_4.Thaontt.BaiTap03",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaiTap04(1)",
+            "request": "launch",
+            "mainClass": "lesson_4.Thaontt.BaiTap04",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaiTap05(1)",
+            "request": "launch",
+            "mainClass": "lesson_4.Thaontt.BaiTap05",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai1(10)",
+            "request": "launch",
+            "mainClass": "lesson_4.Vu.Bai1",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai2(12)",
+            "request": "launch",
+            "mainClass": "lesson_4.Vu.Bai2",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai3(12)",
+            "request": "launch",
+            "mainClass": "lesson_4.Vu.Bai3",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai4(9)",
+            "request": "launch",
+            "mainClass": "lesson_4.Vu.Bai4",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai5(10)",
+            "request": "launch",
+            "mainClass": "lesson_4.Vu.Bai5",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai1(11)",
+            "request": "launch",
+            "mainClass": "lesson_4.bqtruong.Bai1",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai2(13)",
+            "request": "launch",
+            "mainClass": "lesson_4.bqtruong.Bai2",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai3(13)",
+            "request": "launch",
+            "mainClass": "lesson_4.bqtruong.Bai3",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai4(10)",
+            "request": "launch",
+            "mainClass": "lesson_4.bqtruong.Bai4",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai5(11)",
+            "request": "launch",
+            "mainClass": "lesson_4.bqtruong.Bai5",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch KeThua",
+            "request": "launch",
+            "mainClass": "lesson_6.KeThua",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai3(14)",
+            "request": "launch",
+            "mainClass": "lesson_6.PhamBaMinh.Bai3",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch KiemNghiem",
+            "request": "launch",
+            "mainClass": "lesson_6.PhamBaMinh.KiemNghiem",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test(2)",
+            "request": "launch",
+            "mainClass": "lesson_6.PhamBaMinh.Test",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai61(1)",
+            "request": "launch",
+            "mainClass": "lesson_6.PhucDV.Bai61",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai62(1)",
+            "request": "launch",
+            "mainClass": "lesson_6.PhucDV.Bai62",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai63(1)",
+            "request": "launch",
+            "mainClass": "lesson_6.PhucDV.Bai63",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pyly",
+            "request": "launch",
+            "mainClass": "lesson_6.Poly.Pyly",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch SelectionSort",
+            "request": "launch",
+            "mainClass": "lesson_6.SelectionSort",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test(3)",
+            "request": "launch",
+            "mainClass": "lesson_6.bqtruong.Bai1.Test",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai2(14)",
+            "request": "launch",
+            "mainClass": "lesson_6.bqtruong.Bai2.Bai2",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai3(15)",
+            "request": "launch",
+            "mainClass": "lesson_6.bqtruong.Bai3.Bai3",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lesson8",
+            "request": "launch",
+            "mainClass": "lesson_8.Lesson8",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lesson8_Map",
+            "request": "launch",
+            "mainClass": "lesson_8.Lesson8_Map",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lesson8_Object",
+            "request": "launch",
+            "mainClass": "lesson_8.Lesson8_Object",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lesson8_Set",
+            "request": "launch",
+            "mainClass": "lesson_8.Lesson8_Set",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lesson8_Sort",
+            "request": "launch",
+            "mainClass": "lesson_8.Lesson8_Sort",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lesson8_SortCollection",
+            "request": "launch",
+            "mainClass": "lesson_8.Lesson8_SortCollection",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai1(12)",
+            "request": "launch",
+            "mainClass": "lesson_8.PhamBaMinh.Bai1",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai2(15)",
+            "request": "launch",
+            "mainClass": "lesson_8.PhamBaMinh.Bai2",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai3(16)",
+            "request": "launch",
+            "mainClass": "lesson_8.PhamBaMinh.Bai3",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai4(11)",
+            "request": "launch",
+            "mainClass": "lesson_8.PhamBaMinh.Bai4",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai5(12)",
+            "request": "launch",
+            "mainClass": "lesson_8.PhamBaMinh.Bai5",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaiTap01(3)",
+            "request": "launch",
+            "mainClass": "lesson_8.Thaontt.BaiTap01",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaiTap02(2)",
+            "request": "launch",
+            "mainClass": "lesson_8.Thaontt.BaiTap02",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaiTap03(3)",
+            "request": "launch",
+            "mainClass": "lesson_8.Thaontt.BaiTap03",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaiTap04(2)",
+            "request": "launch",
+            "mainClass": "lesson_8.Thaontt.BaiTap04",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai81",
+            "request": "launch",
+            "mainClass": "lesson_8.Vu.Bai81",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai82",
+            "request": "launch",
+            "mainClass": "lesson_8.Vu.Bai82",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai83",
+            "request": "launch",
+            "mainClass": "lesson_8.Vu.Bai83",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai84",
+            "request": "launch",
+            "mainClass": "lesson_8.Vu.Bai84",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai85",
+            "request": "launch",
+            "mainClass": "lesson_8.Vu.Bai85",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai1(13)",
+            "request": "launch",
+            "mainClass": "lesson_8.bqtruong.Bai1",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai2(16)",
+            "request": "launch",
+            "mainClass": "lesson_8.bqtruong.Bai2",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai3(17)",
+            "request": "launch",
+            "mainClass": "lesson_8.bqtruong.Bai3",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai4(12)",
+            "request": "launch",
+            "mainClass": "lesson_8.bqtruong.Bai4",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lesson9",
+            "request": "launch",
+            "mainClass": "lesson_9.Lesson9",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch StackJava",
+            "request": "launch",
+            "mainClass": "lesson_9.StackJava",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai91",
+            "request": "launch",
+            "mainClass": "lesson_9.Vu.Bai91",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai92",
+            "request": "launch",
+            "mainClass": "lesson_9.Vu.Bai92",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai93",
+            "request": "launch",
+            "mainClass": "lesson_9.Vu.Bai93",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test(4)",
+            "request": "launch",
+            "mainClass": "temp.Test",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test61",
+            "request": "launch",
+            "mainClass": "temp.Test61",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
+            "name": "Launch AccountMain",
+            "request": "launch",
+            "mainClass": "nvhoang_lesson7.AccountMain",
+            "projectName": "nvhoang_lesson7"
+        },
+        {
+            "type": "java",
+            "name": "Launch BubbleSort(1)",
+            "request": "launch",
+            "mainClass": "nvhoang_lesson7.BubbleSort",
+            "projectName": "nvhoang_lesson7"
+        },
+        {
+            "type": "java",
+            "name": "Launch binarySearch",
+            "request": "launch",
+            "mainClass": "nvhoang_lesson7.binarySearch",
+            "projectName": "nvhoang_lesson7"
+        }
+    ]
+}
