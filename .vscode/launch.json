@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SocketClientJava",
+            "request": "launch",
+            "mainClass": "lesson_14.Vu.SocketClientJava",
+            "projectName": "Java_10.1.2023_c7066b75"
+        },
+        {
+            "type": "java",
             "name": "Launch BufferInputStreamFile",
             "request": "launch",
             "mainClass": "BufferInputStreamFile",

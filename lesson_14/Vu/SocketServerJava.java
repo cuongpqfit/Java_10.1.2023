@@ -1,13 +1,8 @@
-import java.awt.*;
-import java.io.BufferedReader;
+// package lesson_14.Vu;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.ArrayList;
 import java.util.Hashtable;
-import java.util.Locale;
 
 public class SocketServerJava {
     //Tạo mảng lưu các thread đang handler client
