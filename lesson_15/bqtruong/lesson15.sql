@@ -3,14 +3,14 @@ SELECT * FROM sanpham2;
 --Cập nhật giá tăng 5% đối với những sản phẩm do “Thai Lan” sản xuất. 
 START TRANSACTION;
 UPDATE sanpham2 
-SET GIA = GIA * 1.05
+SET GIA = (GIA + (GIA * 0.05))
 WHERE NUOCSX = 'Thai Lan';
 
 
 --Cập nhật giá giảm 5% đối với những sản phẩm do “Trung Quoc” sản xuất có giá từ 10.000 trở xuống. 
 START TRANSACTION;
 UPDATE sanpham2 
-SET GIA = GIA / 1.05
+SET GIA = (GIA - (GIA * 0.05))
 WHERE (NUOCSX = 'Trung Quoc') AND ( GIA BETWEEN 0 AND 10000);
 
 
