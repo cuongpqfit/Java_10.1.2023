@@ -1,0 +1,4 @@
+===BÀI TẬP PUSH LÊN GITHUB
+
+Bài 1: Thực hành bài tập Database ở file baitapdb_lesson16.docx lưu lại các câu query đã thực hiện vào file lesson14.sql
+Bài 2: Thực hiện các mục TODO trong code java
