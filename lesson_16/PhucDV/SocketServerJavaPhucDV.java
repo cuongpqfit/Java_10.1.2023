@@ -1,21 +1,17 @@
-import java.awt.*;
-import java.io.BufferedReader;
+package PhucDV;
+
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.ArrayList;
 import java.util.Hashtable;
-import java.util.Locale;
 
-public class SocketServerJava {
+public class SocketServerJavaPhucDV {
     //Tạo mảng lưu các thread đang handler client
-    private Hashtable<String, ClientInfo> clients = new Hashtable<String, ClientInfo>();
+    private Hashtable<String, ClientInfoPhucDV> clients = new Hashtable<String, ClientInfoPhucDV>();
 
     public static void main(String[] args) {
         // Singleton Pattern
-        SocketServerJava socketServerJava = new SocketServerJava();
+        SocketServerJavaPhucDV socketServerJava = new SocketServerJavaPhucDV();
         try {
             socketServerJava.start();
         } catch (IOException e) {
@@ -35,16 +31,16 @@ public class SocketServerJava {
             Socket clientSocket = serverSocket.accept();
             System.out.println("Client connected: " + clientSocket.getInetAddress().getHostAddress());
 
-            ClientHandler clientHandler = new ClientHandler(clientSocket, this);
+            ClientHandlerPhucDV clientHandler = new ClientHandlerPhucDV(clientSocket, this);
             new Thread(clientHandler).start();
         }
     }
 
-    public Hashtable<String, ClientInfo> getClients() {
+    public Hashtable<String, ClientInfoPhucDV> getClients() {
         return clients;
     }
 
-    public void setClients(Hashtable<String, ClientInfo> clients) {
+    public void setClients(Hashtable<String, ClientInfoPhucDV> clients) {
         this.clients = clients;
     }
 }

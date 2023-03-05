@@ -1,14 +1,16 @@
+package PhucDV;
+
 import java.io.BufferedReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 
-public class ClientInfo {
+public class ClientInfoPhucDV {
     private String username;
     private Socket socket;
     private BufferedReader input;
     private PrintWriter output;
 
-    public ClientInfo(String username, Socket socket, BufferedReader input, PrintWriter output) {
+    public ClientInfoPhucDV(String username, Socket socket, BufferedReader input, PrintWriter output) {
         this.username = username;
         this.socket = socket;
         this.input = input;
