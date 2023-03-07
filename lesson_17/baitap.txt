@@ -1,0 +1,3 @@
+===BÀI TẬP PUSH LÊN GITHUB
+
+Bài 1: Thực hành bài tập Database ở file baitapdb_lesson17.docx lưu lại các câu query đã thực hiện vào file lesson17.sql
