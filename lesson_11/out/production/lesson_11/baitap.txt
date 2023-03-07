@@ -1,0 +1,45 @@
+===BÀI TẬP PUSH LÊN GITHUB
+
+Bài 1. Viết 1 chương trình  Java thực hiện công việc sau:
+Ghi dữ liệu xuống file ”number.txt” với:
+    - Dòng đầu tiên ghi 1 số ngẫu nhiên n (với 10 <= n <=100)
+    - Mỗi dòng tiếp theo ghi 1 số nguyên dương ngẫu nhiên từ 1 đến 500
+
+
+Bài 2. Viết chương trình Java khác để thực hiện công việc:
+Sử dụng 3 threads:
+    - Thread 1 sau mỗi giây sẽ đọc dữ liệu là một số trong file "number.txt" sau giá trị n đầu tiên
+        Nếu số đọc được là chẵn thì chuyển qua thread 2
+        Nếu số đọc được là lẻ thì chuyển qua thread 3
+    - Thread 2:
+        Ngay sau khi nhận được số vừa đọc từ thread 1 thì nó sẽ in ra file "output2.txt" tất cả các ước số của số này
+        Ví dụ:  Thread -2:  18 = 1, 2, 3, 6, 9, 18
+    - Thread 3:
+        Ngay sau khi nhận được số vừa đọc từ thread 1 thì nó sẽ in ra file "output3.txt" là bình phương của số đó
+        Ví dụ:  Thread -3:  9 = 91
+    - Đồng bộ thread 2 và Thread 3 (dùng synchronized) ghi kết quả ra file "output4.txt" trong đó kết quả Thread-3 ghi
+    trước Thread-2
+
+Ví dụ:
+number.txt      output2.txt                     output3.txt                 output4.txt
+2 3 4           Thread -2:  2 = 1, 2            Thread -3:  2 = 4           Thread -3:  2 = 4
+                Thread -2:  3 = 1, 3            Thread -3:  3 = 9           Thread -3:  3 = 9
+                Thread -2:  4 = 1, 2, 4         Thread -3:  4 = 16          Thread -3:  4 = 16
+                                                                            Thread -2:  2 = 1, 2
+                                                                            Thread -2:  3 = 1, 3
+                                                                            Thread -2:  4 = 1, 2, 4
+
+===QUEUE
+Bài 3: Cho N xâu. Kiểm tra các xâu nó có phải là Palindrome hay không?
+Input: nhập từ file palindrome.inp
+    - Dòng 1 ghi số lượng xâu cần kiểm tra
+    - N Dòng tiếp theo mỗi dòng là 1 xâu ký tự
+Output: xuất ra file palindrome.out
+    - N dòng ghi kết quả 0 là không đối xứng 1 là đối xứng
+Ví dụ:
+palindrome.inp                  palindrome.out
+3                               0
+AABB                            1
+ABBA                            1
+ABCBA
+
