@@ -1,0 +1,7 @@
+===BÀI TẬP PUSH LÊN GITHUB
+
+Bài 1: Thực hành bài tập Database ở file baitapdb_lesson18.docx lưu lại các câu query đã thực hiện vào file lesson18.sql
+
+--Đa Luồng
+Bài 2: Tạo ra 3 Thread. Mỗi Thread có nhiệm vụ in ra các số từ 1 đến 10 và được định nghĩa trong hàm run().
+Bài 3: Tạo 2 luồng để in ra các số từ 1 đến 10000. Luồng thứ nhất sẽ in các số lẻ và luồng thứ hai sẽ in các số chẵn.
