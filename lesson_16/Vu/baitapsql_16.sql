@@ -101,17 +101,6 @@ FROM SANPHAM A
 ORDER BY A.GIA DESC
 LIMIT 3);
 
-
--- 19.In ra danh sách các sản phẩm (MASP, TENSP) có giá bán bằng 1 trong 3 mức giá cao nhất.
-SELECT B.MASP, B.TENSP 
-FROM SANPHAM B 
-WHERE B.GIA IN (
-SELECT A.GIA 
-FROM SANPHAM A
-ORDER BY A.GIA DESC
-LIMIT 3);
-
-
 -- 20. In ra danh sách 3 khách hàng (MAKH, HOTEN) có doanh số cao nhất (sắp xếp theo kiểu xếp hạng).
 SELECT A.MAKH, A.HOTEN 
 FROM KHACHHANG A
@@ -138,9 +127,6 @@ FROM HOADON A
 GROUP BY A.TEMP_NGHD;
 
 -- 25.Tính tổng số lượng của từng sản phẩm bán ra trong ngày 28/10/2006.
-SELECT C. MASP, SUM(C.SL) FROM CTHD C 
-GROUP BY C.MASP;
-
 SELECT *FROM CTHD C 
 WHERE C.MASP IN ( 
 (SELECT B.MASP FROM CTHD B
@@ -148,9 +134,12 @@ WHERE B.SOHD IN (
 SELECT A.SOHD FROM HOADON A 
 WHERE A.TEMP_NGHD = '2006-10-28')));
 
-SELECT A.SOHD FROM HOADON A 
-WHERE A.TEMP_NGHD = '2006-10-28';
 -- 26.Tính doanh thu bán hàng của từng tháng trong năm 2006.
+SELECT STRFTIME('%m',A.NGHD ) THANG, SUM(A.TRIGIA) AS TONG_DOANH_THU, A.NGHD
+FROM HOADON A
+GROUP BY STRFTIME('%m',A.NGHD )
+HAVING STRFTIME('%Y',A.NGHD )='2006' ;
+
 -- 27.Tìm khách hàng (MAKH, HOTEN) có số lần mua hàng nhiều nhất.
 -- 28.Tìm sản phẩm (MASP, TENSP) có tổng số lượng bán ra thấp nhất trong năm 2006.
 -- 29.Tháng mấy trong năm 2006, doanh số bán hàng thấp nhất ?
